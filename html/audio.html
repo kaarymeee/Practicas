@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Audio en html</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/alexa-std:n4:default;alegreya:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<!--Shortcut de estructura generl: (header>h1)+(nav>(ul>(li*5)))+(main>((section>(h2+p))*4))+(footer>h5)-->
+	<header>
+	  <h1>Audio en html</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="Enlaces.html">Enlaces</a></li>
+			<li><a href="Imagenes.html">Imagenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+	  		<li><a href="animate.html">Animación</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+		  	<li><a href="flexbox.html">Flexbox</a></li>
+	  </ul>
+	</nav>
+	<main>
+		<section>
+		  <h2>Inserción de audio simple</h2>
+		  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, ipsa esse tempore dolorum nemo ipsam in expedita explicabo accusantium ad.</p>
+			
+			<audio controls>
+			<source src="../medios/audio/Burbank Late Nights - Squadda B.mp3" type="audio/mp3">
+			</audio>
+			
+		</section>
+		<section>
+		  <h2>Inserción de audio con reproducción automática (probar en iexplorer)&nbsp;</h2>
+		  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit soluta rerum nisi natus amet repellendus corrupti nulla eum blanditiis optio.</p>
+          <audio controls="controls" muted="muted" >
+            <source src="../medios/audio/Squadda B TV - Squadda B.mp3" type="audio/mp3">
+          </audio>
+		</section>
+		<section>
+		  <h2>Inserción de audio con reproducción cíclica</h2>
+		  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quam aliquid atque facilis delectus vel officia vitae quas accusamus deserunt.</p>
+          <audio controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+            <source src="../medios/audio/BSC State of Mind - Squadda B.mp3" type="audio/mp3">
+          </audio>
+		</section>
+		<section>
+		  <h2>Inserción de audio de repositorio iVoox</h2>
+		  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa commodi doloribus recusandae. Ipsum quisquam, ad earum iste, in facilis maxime.</p>
+			<iframe id='audio_13455576' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:50%;' src='https://mx.ivoox.com/es/player_ej_13455576_6_1.html'></iframe>
+		</section>
+		<section>
+		  <h2>Inserción de audio de repositorio web</h2>
+		  <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa commodi doloribus recusandae. Ipsum quisquam, ad earum iste, in facilis maxime.</p>
+		  
+	  </section>
+	</main>
+	<footer>
+	  <h5>Elaborado por: Luz Karyme Barrera García</h5>
+</footer>
+</body>
+</html>

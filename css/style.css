@@ -1,0 +1,242 @@
+header   {
+    background-color: #FDBCAA;
+    color: #FFFFFF;
+    height: 100px;
+    width: 80%;
+}
+header, nav, section, footer , main{
+    margin: 0 auto;
+    width: 80%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    height: 92px;
+    background-color: #8B8C8C;
+}
+main {
+    background-color: #FFE398;
+    font-size: medium;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+footer h5 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+footer {
+    background-color: #FEBCAA;
+    min-height: 0px;
+}
+main section {
+    width: 80%;
+    text-align: left;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding-top: 24px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 15px;
+    background-color: #FFF6DE;
+    height: auto;
+    border: 5px outset #76888E;
+    overflow: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    color: #F2F2F2;
+    margin-top: 20px;
+}
+nav ul {
+}
+main section h2 {
+    padding-top: 1px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-bottom: 18px;
+    color: #FE724C;
+    font-weight: 400;
+    font-style: normal;
+    font-family: alexa-std;
+    fo4nt-size: 0px;
+    font-size: 36px;
+}
+header h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: -1px;
+    padding-top: 18px;
+}
+#link-2 {
+}
+#link-3 {
+}
+#link-4 {
+}
+#link-5 {
+}
+
+a:link{
+	color:#7ADBE6;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+a:visited{
+	color:#F2F2F2;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active{
+	color:#79F585;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+a:hover{
+	color:bisque;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.picture_1 {
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_flotante {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    width: 25%;
+    margin-left: 30px;
+    height: auto;
+	overflow: auto;
+
+}
+.picture_2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.parrafo{
+    color: #60390B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: alegreya;
+    margin-bottom: 11px;
+}
+.picture_3 {
+    display: inline-block;
+    width: 40%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.img_redondeada {
+    border-radius: 32px;
+}
+.img_blur {
+    filter: blur(3px);
+}
+.img_brillo {
+    filter: brightness(200%);
+}
+.contraste {
+    filter: contrast(200%);
+}
+.img_grises {
+    filter: grayscale(100%);
+}
+.img_opacidad {
+    filter: opacity(0.5);
+}
+.img_negative {
+    filter: invert(100%);
+}
+.img_saturacion {
+    filter: saturate(500%);
+}
+.img_sepia {
+    filter: sepia(100%);
+}
+.video {
+}
+.video_size {
+    width: 58%;
+    height: auto;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_red2 {
+    border-radius: 29px 52px 202px 88px;
+}
+.img_red3 {
+    border-radius: 50%;
+}
+.animate__faster {
+}
+input[type=text], input[type=number]{
+	background-color: #697A7F;
+	color:white;
+	widht: 50%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+input[type=submit]{
+	background-color: #FFE08F;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+select, select option{
+	background-color: #697A7F;
+	color:white;
+	widht: 50%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.parrafo_formulario, label{
+	font-size:18px;
+	color:#272D2F;
+}
+
+.otro{
+	color: black;
+}
